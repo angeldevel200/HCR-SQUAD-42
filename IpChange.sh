@@ -1,12 +1,12 @@
 #!/bin/bash
-# TheGSMWork (YT) Auto Install Script
+# HCR SQUAD 42 - Auto Install Script
 
 # -------------------------------
-# 🎨 TheGSMWork (YT) Branding
+# 🎨 HCR SQUAD 42 Branding
 # -------------------------------
 clear
 echo -e "\e[31m┌───────────────────────────────────────┐\e[0m"
-echo -e "\e[31m│         \e[0m THE \e[31mGSM\e[0m WORK (YT)        \e[31m│\e[0m"
+echo -e "\e[31m│         \e[0m FOR \e[31mHCR\e[0m SQUAD 42        \e[31m│\e[0m"
 echo -e "\e[31m└───────────────────────────────────────┘\e[0m"
 echo ""
 
@@ -48,7 +48,7 @@ EOF
     tor -f "$TOR_DIR/torrc" > /dev/null 2>&1 &
     sleep 2
 done
-
+"
 # Privoxy Setup
 cat <<EOF > "$HOME/.privoxy/config"
 listen-address 127.0.0.1:8118
@@ -78,7 +78,7 @@ while true; do
         echo -e "AUTHENTICATE \"\"\r\nSIGNAL NEWNYM\r\nQUIT" | nc 127.0.0.1 $ctrl_port > /dev/null 2>&1
     done
     NEW_IP=$(curl --proxy http://127.0.0.1:8118 -s https://api64.ipify.org)
-    echo -e "\e[1;32m🌐 New IP: $NEW_IP ✅\e[0m"
+    echo -e "\e[1;32m🌐 New IP: $NEW_IP ✅\e[0m
     echo -e "\e[1;34m[Proxy]: 127.0.0.1:8118 🛰️\e[0m"
     sleep "$ROTATION_TIME"
 done
