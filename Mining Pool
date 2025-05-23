@@ -1,0 +1,85 @@
+For Termux - Installation Command
+termux-change-repo
+apt upgrade
+apt update
+apt install git
+apt install wget
+apt install proot
+apt install cmake
+git clone https://github.com/xmrig/xmrig.git
+cd xmrig
+mkdir build
+cd build
+cmake -DWITH_HWLOC=OFF ..
+make
+
+For PC - Installation Command
+sudo apt update
+sudo apt upgrade
+sudo apt install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev
+git clone https://github.com/xmrig/xmrig.git
+cd xmrig
+mkdir build
+cd build
+cmake ..
+make -j$(nproc)
+
+
+
+After Installed Command For Mining Start
+
+cd xmrig
+cd build
+
+
+
+Choice Code For Crypto Mining
+
+./xmrig -o rx.unmineable.com:3333 -a rx -k -u SHIB:0x5A706400B23e51dE7a6E1357342Bf5b78D4A9FD6.angeldevel200
+
+./xmrig -o rx.unmineable.com:3333 -a rx -k -u LINK:0x5A706400B23e51dE7a6E1357342Bf5b78D4A9FD6.angeldevel200
+
+./xmrig -o rx.unmineable.com:3333 -a rx -k -u SOL:HM97z9fuxZuCcXbG69UqKBqzdJSrzBNmifZZ6a5fhq4Z.angeldevel200
+
+./xmrig -o rx.unmineable.com:3333 -a rx -k -u ADA:addr1qxd25f8eageysg3ld0hhaxszcmjty0h4yq7vpq795arv7dl5q22equhsj0zsxxa72tx66t59uqqwtzfw4d7kju6247qsy7t27l.angeldevel200
+
+./xmrig -o rx.unmineable.com:3333 -a rx -k -u BONK:HM97z9fuxZuCcXbG69UqKBqzdJSrzBNmifZZ6a5fhq4Z.angeldevel200
+
+./xmrig -o rx.unmineable.com:3333 -a rx -k -u BTC:1LxhKGkCUC4VYYMW9YgsbLdXfsJVTVJsGF.angeldevel200
+
+./xmrig -o rx.unmineable.com:3333 -a rx -k -u ATOM:cosmos1vgq7jwps5mf480vsdp2j7xupthvml4ja4dylah.angeldevel200
+
+./xmrig -o rx.unmineable.com:3333 -a rx -k -u XMR:4AR2TT3bDb8TB6h8HiNX9tCeRqtFUVXDR4q7ngUhe2K141DYgvsAhpDZa9iPv22iw1RfdSpQp9va4eiRKCCK3AyNSAS1yoX.angeldevel200
+
+./xmrig -o rx.unmineable.com:3333 -a rx -k -u DOT:168HyNUdPvZsyDxuL6F4qBFRZUWJdymL3LDDBKiMMv678KWd.angeldevel200
+
+./xmrig -o rx.unmineable.com:3333 -a rx -k -u USDT:TSxWWymeAKeeMMVQ66Z8c4hZuQo6FuhG9z.angeldevel200
+
+./xmrig -o rx.unmineable.com:3333 -a rx -k -u ETH:0x5A706400B23e51dE7a6E1357342Bf5b78D4A9FD6.angeldevel200
+
+./xmrig -o rx.unmineable.com:3333 -a rx -k -u LTC:LaNevRxYW3jHDJrn2wJoUWGvwMKNSuri2Y.angeldevel200
+
+
+
+Verus Coin Mine Command For Termux
+pkg install proot
+pkg install proot-distro
+proot-distro install ubuntu
+proot-distro login ubuntu
+apt-get update && apt-get upgrade -y
+apt-get install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential git nano 
+git clone --single-branch -b ARM https://github.com/monkins1010/ccminer.git
+cd ccminer
+chmod +x build.sh
+chmod +x configure.sh
+chmod +x autogen.sh 
+./build.sh
+
+
+After Installed Command For Mining Start
+proot-distro login ubuntu
+cd ccminer
+./ccminer -a verus -o stratum+tcp://pool.verus.io:9998 -u RMXDHyrYFZwt2ZDYQQj9owy6Sn93juG5DH.angeldevel200 -p d=4 -t 8
+
+For PC 
+./ccminer.exe -a verus -o stratum+tcp://pool.veruscoin.io:9999 -u RMXDHyrYFZwt2ZDYQQj9owy6Sn93juG5DH.angeldevel200 -p x -t 8
