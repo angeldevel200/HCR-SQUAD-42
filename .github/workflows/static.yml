@@ -1,0 +1,23 @@
+- name: Privacy & Cookie Policy
+  path: /privacy
+  layout: default
+  title: "Privacy & Cookie Policy - Cartovia"
+  description: "Read the privacy and cookie policy for Cartovia Telegram Channel"
+  content: |
+    ## Privacy & Cookie Policy
+
+    At **Cartovia**, accessible via [@Cartovia](https://t.me/Cartovia), protecting user privacy is a top priority.
+
+    ### Information We Collect
+    We do not collect personal data. All interactions are handled through the Telegram platform.
+
+    ### Cookies
+    We do not use cookies directly. Any cookies used by Telegram or our external hosting are limited to essential functionality only.
+
+    ### Lawful Basis
+    We only process minimal data shared by Telegram, required to operate our services. No explicit user data is stored or tracked.
+
+    ### Contact
+    For any questions, contact us via [@Cartovia](https://t.me/Cartovia).
+
+    _Last updated: June 2025_
