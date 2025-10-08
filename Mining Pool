@@ -35,6 +35,8 @@ cd build
 
 Choice Code For Crypto Mining
 
+./xmrig -o rx.unmineable.com:3333 -a rx -k -u DGB:dgb1qm84sh5u33zzlnzr8aytjl6kzx9f0cz04h4xsvl.angeldevel200
+
 ./xmrig -o rx.unmineable.com:3333 -a rx -k -u SHIB:0x5A706400B23e51dE7a6E1357342Bf5b78D4A9FD6.angeldevel200
 
 ./xmrig -o rx.unmineable.com:3333 -a rx -k -u LINK:0x5A706400B23e51dE7a6E1357342Bf5b78D4A9FD6.angeldevel200
