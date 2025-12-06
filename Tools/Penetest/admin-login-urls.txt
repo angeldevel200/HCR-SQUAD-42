@@ -16,6 +16,8 @@ admin.asp
 login.asp
 adm/
 admin/
+admin/index.php
+admin/index.html
 admin/account.html
 admin/login.html
 admin/login.htm
