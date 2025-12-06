@@ -311,6 +311,7 @@ admin/login/
 adminarea/
 admin_area/
 adminpanel/
+AdminDashboard/login.php
 adminpanel/login.php
 administrator/
 administrator/login.php
