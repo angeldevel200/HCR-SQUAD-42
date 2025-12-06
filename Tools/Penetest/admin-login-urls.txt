@@ -28,6 +28,8 @@ admin/controlpanel.html
 admin/controlpanel.htm
 admin/adminLogin.html
 admin/adminLogin.htm
+adminlogin.php
+adminlogin.html
 admin.htm
 admin.html
 login/admin
