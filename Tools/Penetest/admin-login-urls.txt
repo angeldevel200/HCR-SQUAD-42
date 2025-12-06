@@ -27,6 +27,7 @@ admin/adminLogin.html
 admin/adminLogin.htm
 admin.htm
 admin.html
+login/admin
 adminitem/
 adminitems/
 administrator/
